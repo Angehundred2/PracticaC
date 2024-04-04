@@ -1,0 +1,47 @@
+.contrataciones {
+    width: 80%; /* O el ancho que prefieras */
+    margin: 0 auto; /* Centra la sección */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Opcional: Añade una sombra para resaltar la sección */
+    padding: 20px; /* Añade algo de espacio alrededor del contenido */
+    background-color: white; /* Asegura que el fondo sea blanco */
+}
+
+.contrataciones h2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    width: 100%; /* La tabla utiliza todo el ancho de su contenedor */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #000;
+    color: white;
+    text-align: center; /* Centra el texto de los encabezados */
+    padding: 10px;
+}
+
+.btn-contratar {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%; /* Hace el botón más ancho */
+}
+
+.btn-contratar:hover {
+    background-color: darkgreen;
+}
